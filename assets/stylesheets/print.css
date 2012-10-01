@@ -1,0 +1,104 @@
+/* print styles */
+
+/* general selectors
+_______________________________________________________ */
+
+body {
+	font: 14pt Georgia, "Times New Roman", "DejaVu Serif", "Bitstream Vera Serif", serif;
+	min-width: 740px;
+	text-align: center;
+}
+
+/* headings */
+
+h1 {
+	font-size: 18pt;
+	color: #800000;
+	padding-bottom: 0.5em;
+}
+h2 {
+	font-size: 16pt;
+	color: #003;
+	padding: 1.4em 0 0.2em 0;
+}
+h3 {
+	font-size: 12pt;
+	color: #666;
+	padding: 1.4em 0 0.2em 0;
+}
+
+/* paragraphs */
+
+p {
+	padding: 0.7em 0;
+}
+.tight p {
+	padding: 0;
+	line-height: 1.6em;
+}
+.dropcap { 
+	float: left;
+	font-family: "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+	font-size: 400%;
+	line-height: 1.0em;
+	margin-right: 0.2em;
+	margin-bottom: -0.25em;
+	color: #800000;	
+}
+
+/* lists */
+
+#singleContent ul {
+	padding: 0.2em 0 0.2em 1.5em;
+}
+ol {
+	padding: 0.2em 0 0.2em 1.5em;
+}
+
+/* links */
+
+a:link {
+	color: #4A468E;
+	text-decoration: underline;
+}
+a:visited {
+	color: #4A468E;
+	text-decoration: underline;
+}
+
+/* structure
+_______________________________________________________ */
+
+#wrapper {
+	width: 740px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* masthead
+_______________________________________________________ */
+
+#masthead #logo {
+	display: none;
+}
+#masthead #printLogo {
+	width: 720px;
+	height: 144px;
+}
+
+/* about
+_______________________________________________________ */
+
+#about #singleContent ul#staffList li {
+	list-style-type: none;
+	padding-left: 16px;
+	margin-bottom: 1em;
+	line-height: 1.5em;
+}
+
+/* miscellany
+_______________________________________________________ */
+
+.skipNav {
+	display: none;
+}

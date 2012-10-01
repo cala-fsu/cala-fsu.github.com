@@ -1,0 +1,18 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  developer/designer: Sean G. Coleman
+  designer: Colin Dwyer
+  developer: Sweta Shrestha
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery,
+              jQuery UI,
+              Modernizr,
+              Selectivizr,
+              Less Framework 4,
+              qTip jQuery plugin,
+              jQuery BBQ plugin

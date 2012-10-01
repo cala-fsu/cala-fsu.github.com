@@ -1,0 +1,21 @@
+---
+layout: default
+title: Center for Advancement of Learning and Assessment -- News
+---
+<section class="content">
+
+  <p>News from CALA.</p>
+
+  <ul class="entries">
+    {% for post in site.posts %}
+    {% if post.categories contains 'news' %}
+    <li>
+      <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      <!-- <p class="meta">Date: {{ post.date }}</p> -->
+      <!-- <p>{{ post.content | strip_html | truncatewords: 100 }}</p> -->
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+</section>

@@ -1,0 +1,33 @@
+/* ie fixes */
+
+/* IE7 has a problem when zooming with a div with relative positioning unless
+ancestor elements are designated position relative */
+body {
+	position: relative;
+}
+
+/* portfolio
+_______________________________________________________ */
+
+* + html #portfolio #singleContent ul li {
+	background: transparent url(../images/bullet_list_red.png) no-repeat scroll 0 0.6em;
+}
+
+/* admin
+_______________________________________________________ */
+
+/* compensate for fieldset spacing differences in IE7 */
+* + html #textileLegend {
+	margin-top: 28px;
+}
+
+/* miscellany
+_______________________________________________________ */
+
+*:first-child+html #masthead,
+*:first-child+html #subnav,
+*:first-child+html .article,
+*:first-child+html #quickCaseStudyWrapper,
+*:first-child+html #formWrapper {
+	min-height: 1px; /* for IE7 */
+}

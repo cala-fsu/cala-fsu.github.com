@@ -1,0 +1,14 @@
+<Interaction Type="FAQ" ContentFolder="proj_content" Title="Help" Numbering="0" animation="bounce" contentfont="Articulate" jpegquality="80" autoplay="false" autoplayduration="5" headingfont="Articulate" navfont="Articulate" soundeffects="true" volumebutton="false" audioquality="low" audiocustombitrate="br112Kbps" audiocustomfrequency="fq12KHz" audiocustomchannel="ccMono" navbuttons="true" forceorder="false" detectflashver="true" version="2.2.907.1413" borderstyle="round_inset">
+  <Search enabled="false" searchtext="Search" resulttext="found for" />
+  <steps>
+    <Step id="3f51d3c4-4729-4bca-aebe-00053e63a8f9" name="Main Navigation" title="" number="" html="&lt;p&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; &lt;/font&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;">
+      <image width="570" height="277" zoomheight="277" playbar="false" autoplay="false" zoomwidth="570" zoommode="Embedded" allowzoom="false" align="top" duration="83" framerate="12" name="swf1.swf" zoomimage="swf1.swf" />
+    </Step>
+    <Step id="e2371738-d963-49c7-a0ba-e3f2c3d3fa4d" name="Test Navigation" title="" number="" html="&lt;p&gt;&lt;font face='Articulate' size='16' color='#000000'&gt; &lt;/font&gt;&lt;br&gt;&lt;/br&gt;&lt;/p&gt;">
+      <image width="570" height="310" zoomheight="310" playbar="false" autoplay="false" zoomwidth="570" zoommode="Embedded" allowzoom="false" align="top" duration="83" framerate="12" name="swf0.swf" zoomimage="swf0.swf" />
+    </Step>
+  </steps>
+  <nextslide enabled="False" text="" show="" />
+  <starttip show="false" text="Click next to continue" />
+  <resume id="b59587e9-4c80-4374-b65d-cf0ab6ca54ac" enabled="false" />
+</Interaction>

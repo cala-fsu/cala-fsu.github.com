@@ -1,0 +1,17 @@
+/* firefox fixes */
+
+/* general selectors
+_______________________________________________________ */
+
+/* links */
+
+a:focus {
+	outline: none; /* fixes dot above firefox links */
+}
+
+/* masthead
+_______________________________________________________ */
+
+#logo {
+	outline: none; /* outline shows up in firefox */
+}

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scheme name="New scheme from White" version="2" custompath="E:\Documents and Settings\cdwyer\Application Data\Articulate\Engage\2.0\schemes\New scheme from White.xml" id="f26156cb-1547-4ab1-b4b3-d46ea4ce0983">
+  <!-- #1 -->
+  <bg displayname="Background" category="Background and Text">0xFFFFFF</bg>
+  <!-- #2 -->
+  <topbuttons displayname="Header Normal" category="Buttons" pairid="topbuttons" alpha="100">0xC69C6D</topbuttons>
+  <!-- #2 -->
+  <topbuttonsb category="Buttons" pairid="topbuttons">0xA67C52</topbuttonsb>
+  <!-- #2 -->
+  <tophover displayname="Header Hover" category="Buttons" pairid="tophover" alpha="100">0xFFF799</tophover>
+  <!-- #2 -->
+  <tophoverb category="Buttons" pairid="tophover">0x8C6239</tophoverb>
+  <!-- #3 -->
+  <navbutton displayname="Navigation Normal" category="Buttons" pairid="navbutton" alpha="100">0x754C24</navbutton>
+  <!-- #3 -->
+  <navbuttonb category="Buttons" pairid="navbutton">0xC69C6D</navbuttonb>
+  <!-- #3 -->
+  <navhover displayname="Navigation Hover" category="Buttons" pairid="navhover" alpha="100">0xFFF799</navhover>
+  <!-- #3 -->
+  <navhoverb category="Buttons" pairid="navhover">0x8C6239</navhoverb>
+  <!-- #4 -->
+  <activenavbutton displayname="Navigation Active" category="Buttons" pairid="activenavbutton" alpha="100">0xA7A7A7</activenavbutton>
+  <!-- #4 -->
+  <activenavbuttonb category="Buttons" pairid="activenavbutton">0x818181</activenavbuttonb>
+  <!-- Changing the items above will have the most impact. Usually there's no need to change the following colors. -->
+  <!-- #5 -->
+  <headerbar displayname="Header Background" category="Background and Text">0x000000</headerbar>
+  <!-- #6 -->
+  <contentbg displayname="Slide Background" category="Background and Text">0xF4F4F4</contentbg>
+  <!-- #7 -->
+  <footerbar displayname="Footer Bar" category="Background and Text">0xF4F4F4</footerbar>
+  <!-- #8 -->
+  <fonta displayname="Header Text" category="Background and Text">0xFFFFFF</fonta>
+  <!-- #9 -->
+  <fontb displayname="Slide Text" category="Background and Text">0x000000</fontb>
+  <!-- #10 -->
+  <tt_bg displayname="Background" category="Tooltips">0xffffe1</tt_bg>
+  <!-- #10 -->
+  <tt_border displayname="Border" category="Tooltips">0x676767</tt_border>
+  <!-- #10 -->
+  <tt_text displayname="Text" category="Tooltips">0x000000</tt_text>
+  <!-- #11 -->
+  <calloutbg displayname="Background" category="Callouts">0xFFFFFF</calloutbg>
+  <!-- #12 -->
+  <callouttext displayname="Text" category="Callouts">0x000000</callouttext>
+  <!-- #13 -->
+  <listselect displayname="Item Selected" category="Glossary">0x64A800</listselect>
+  <!-- #14 -->
+  <listhover displayname="Item Hover" category="Glossary">0x98CCFC</listhover>
+  <!-- #15 -->
+  <timeline_tooltip_hover displayname="Tooltip Hover" category="Timeline">0xE7F7FF</timeline_tooltip_hover>
+  <!-- #16 -->
+  <timeline_period_text displayname="Period Text" category="Timeline">0x000000</timeline_period_text>
+  <!-- #17 -->
+  <timeline_selected_period_text displayname="Selected Period Text" category="Timeline">0xffffff</timeline_selected_period_text>
+  <!-- #18 -->
+  <lblgrf_calloutbg displayname="Callout Background" category="Labeled Graphic">0xE4E4E4</lblgrf_calloutbg>
+  <!-- #19 -->
+  <tab_contentbg displayname="Background" category="Tabs">0xCCCCCC</tab_contentbg>
+  <!-- #20 -->
+  <tab_textbg displayname="Slide Background" category="Tabs">0xffffff</tab_textbg>
+  <!-- #21 -->
+  <faq_button_text displayname="FAQ Button Text" category="FAQ">0xffffff</faq_button_text>
+</scheme>

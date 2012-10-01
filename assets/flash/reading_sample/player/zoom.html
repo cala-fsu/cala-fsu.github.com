@@ -1,0 +1,82 @@
+<HTML>
+<HEAD>
+<!-- saved from url=(0014)about:internet -->
+<TITLE>Zoom</TITLE>
+
+<script>
+
+var FF1 = (navigator.userAgent.indexOf("Firefox\/1")!=-1) ? true : false;
+var NS6plus = (parseFloat(navigator.appVersion) >= 5 && navigator.appName.indexOf("Netscape")>=0 )? true: false;
+var g_bScaleSwf = false;
+
+</script>
+
+<script LANGUAGE="JavaScript1.2" SRC="flashcommand.js" TYPE="text/javascript"></script>
+<SCRIPT>
+var g_oZoomInfo = window.opener.g_oZoomInfo;
+</SCRIPT>
+<HEAD>
+<BODY marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">
+
+<SCRIPT>
+
+function ShowImage(strFileName)
+{
+	document.write("<img src='"+ strFileName + "'/>");
+}
+
+function ShowSWF(strFileName)
+{
+	WriteSwfObject(strFileName, "100%", "100%", "", false, "", "showall")
+}
+
+function Zoom()
+{
+	var strFileName = g_oZoomInfo.strFileName;
+	var strExt = "";
+
+
+	strExt = strFileName.substr(strFileName.lastIndexOf("."));
+	strExt = strExt.toLowerCase();
+
+
+	if (strExt == ".swf")
+	{
+		ShowSWF(strFileName);
+	}
+	else
+	{
+		ShowImage(strFileName);
+	}
+}
+
+function RemoveFolder(strPath)
+{
+	var strResult = strPath;
+	var nPos = -1;
+	var nPos2 = -1;
+
+	nPos = strResult.lastIndexOf("\\");
+	nPos2 = strResult.lastIndexOf("/");
+
+	if (nPos2 > nPos)
+	{
+		nPos = nPos2;
+	}
+
+	if (nPos >= 0)
+	{
+		strResult = strResult.substr(nPos + 1);
+	}
+
+	return strResult;
+}
+
+
+Zoom();
+
+
+</SCRIPT>
+
+</BODY>
+</HTML>
