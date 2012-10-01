@@ -1,33 +1,49 @@
-<!DOCTYPE html>
-<html>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>{{ page.title }}</title>
-  <meta name="author" content="Center for Advancement of Learning and Assessment" >
-  <link rel="stylesheet" href="stylesheets/styles.css" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en-us" />
+	<meta name="Language" content="english" />
+	<meta name="description" content="Welcome to the Center for Advancement of Learning and Assessment (CALA) Web site." />
+	<meta name="keywords" content="CALA, FSU, Florida State University" />
+    <title>{{ page.title }}</title>
+
+	<!--[if gte IE 6]><!-->
+    <link href="/assets//stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/assets//stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+	<!-- <![endif]-->
+
+	<!--[if IE 6]>
+    <link href="/assets//stylesheets/ie6.css" media="screen" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+	<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+
 </head>
-
-<body>
-  <div id="main">
-
-    <header>
-      <h1>Center for Advancement of Learning and Assessment</h1>
-    </header>
-
-    <nav role="navigation">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/news">News</a></li>
-      </ul>
-    </nav>
-
-    {{ content }}
-
-    <footer>
-      <p>&copy; 2012 Center for Advancement of Learning and Assessment</p>
-    </footer>
-
-  </div>
+<body id="{{ page.id }}">
+	<div id="wrapper">
+		<p class="skipNav">
+			<a href="#contentWrapper">Skip Navigation</a>
+		</p>
+		<div id="masthead">
+            <a href="/" id="logo">home</a>
+            <img url="/assets/images/print_style_banner.jpg" id="printLogo" />
+			<div id="navbar">
+				<p id="title">Center for Advancement of Learning and Assessment</p>
+                <a href="http://www.fsu.edu/" id="fsu">Florida State University</a>
+				<ul>
+                    <li id="homeNav"><a href="/">home</a></li>
+                    <li id="servicesNav"><a href="/services">services</a></li>
+                    <li id="aboutNav"><a href="/about">about</a></li>
+                    <li id="portfolioNav"><a href="/portfolio">portfolio</a></li>
+                    <li id="newsNav"><a href="/news">news</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="contentWrapper">
+            {{ content }}
+		</div>
+	</div>
 </body>
 </html>
