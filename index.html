@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Center for Advancement of Learning and Assessment
+category: news ies
 id: home
 ---
 <div id="rightFauxColumn" class="clearfix">
@@ -58,13 +59,13 @@ id: home
         <div id="homeNews">
             <h2>News</h2>
             <ul>
-                <!-- each article -->
+            {% for post in paginator.posts %}
                 <li>
-                    <h3><!-- headline --></h3>
-                    <p><em><!-- publish date --></em></p>
-                    <p><!-- body --></p>
+                    <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+                    <p><em>{{ post.date | time_ago }}{{ post.tags | tag_links }}</em></p>
+                    <p>{{ post.description }}</p>
                 </li>
-                <!-- end -->
+            {% endfor %}
             </ul>
             <a href="/news">News archive</a>
         </div>

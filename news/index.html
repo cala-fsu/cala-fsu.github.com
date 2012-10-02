@@ -1,21 +1,18 @@
 ---
-layout: default
+layout: news_category_index
 title: Center for Advancement of Learning and Assessment -- News
+category: news
+category_layout: news_category_index.html
 ---
-<section class="content">
+<!--
+{% for post in paginator.posts %}
 
-  <p>News from CALA.</p>
-
-  <ul class="entries">
-    {% for post in site.posts %}
-    {% if post.categories contains 'news' %}
-    <li>
-      <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-      <!-- <p class="meta">Date: {{ post.date }}</p> -->
-      <!-- <p>{{ post.content | strip_html | truncatewords: 100 }}</p> -->
-    </li>
-    {% endif %}
-    {% endfor %}
-  </ul>
-
-</section>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>
+        {{ post.date | date: '%B %d, %Y' }}
+    </p>
+    <div class="content">
+        {{ post.content | strip_html | truncatewords: 100 }}
+    </div>
+{% endfor %}
+-->

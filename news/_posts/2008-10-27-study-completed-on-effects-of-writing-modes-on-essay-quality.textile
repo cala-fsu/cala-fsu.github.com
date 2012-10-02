@@ -1,0 +1,14 @@
+---
+layout: news_entry
+category: news
+title: Study Completed on Effects of Writing Modes on Essay Quality
+---
+Tallahassee, Fla. – No significant difference exists between the scores of handwritten and computer-written student essays, according to a study produced by the Center for Advancement of Learning and Assessment (CALA).
+
+The research, which was funded by the Florida Department of Education, examined the effects of writing mode—computer versus paper and pencil—on the quality of postsecondary students’ essays. It also explored whether variations exist in the holistic raters’ scoring of the essays that may be attributed to the different production modes.
+
+Graduate and undergraduate students enrolled in Florida’s teacher training programs responded to essay prompts from the Florida Teacher Certification Examinations (FTCE) using both the computer and paper and pencil. Students’ preplanning activities also were captured in both modes. Approximately half of the essays in each mode were transcribed, and both the original and transcribed essays were scored holistically by trained raters. Holistic rater training included a literature review on rater bias and its impact on scoring.
+
+Findings showed no significant difference in scores between the modes, nor was rater bias present. Students tended to do more extensive preplanning for the paper-and-pencil essays than for the computer-based essays. Even when students did their testing on computer, given a choice, they often preferred planning on paper. There was little correlation, however, between preplanning and the computer-based essay scores.
+
+"With advances in technology, we are seeing a greater opportunity for cost-saving measures, as well as speed in score reporting," said Dr. Faranak Rohani, the director of CALA. "This study provides empirical support for using the computer-based writing assessment for the essay portion of the FTCE. Certain issues, however, should be considered, such as the quality of rater training and the preference for preplanning on paper."

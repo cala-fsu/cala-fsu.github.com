@@ -1,0 +1,12 @@
+---
+layout: news_entry
+category: news
+title: Learning Portal Provides Resources for Teacher Candidates
+---
+Tallahassee, Fla. – Test overviews and Web links are among the information available to teacher candidates on the recently launched <a href="https://app1.fldoe.org/ftce/Portal/Default.aspx">Florida Teacher Certification Examinations (FTCE) Learning Portal</a>. The portal was developed by the Center for Advancement of Learning and Assessment (CALA) for the Florida Department of Education (FLDOE).
+
+The portal serves as a single source of comprehensive information for individuals seeking teacher certification, giving them the tools they need to prepare for tests in their content area. Constructed according to Web standards, the portal is accessible to diverse audiences and will be used as a model for accessible Web development for future FLDOE projects.
+
+As a resource for the FTCE, the portal offers information on exam overviews and test information guides. The competencies and skills specify what beginning teachers should know and be able to do and are available for download. The portal presents descriptions of content-area Web sites and print resources. It also provides the basics on registration, testing requirements for certification, Educator Preparation Institutes, alternative certification programs, and college and university programs.
+
+"We wanted to engage users and present critical information in an easy, navigable manner," said Carol Sanfilippo, associate director of CALA. "To do this, we integrated diverse and comprehensive material in a logical way for the intended audience. We’re very pleased with the result."
