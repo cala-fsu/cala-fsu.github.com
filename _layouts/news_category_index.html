@@ -12,8 +12,7 @@ id: news
             </div>
             <div class="articleContent">
                 <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                {{ post.content | strip_html | truncatewords: 60 }}
-                <!-- {{ post.content }} -->
+                {{ post.content | strip_html | truncatewords: 60 }} <a href="{{ post.url }}" title="{{ post.title }}"> read more &raquo;</a>
             </div>
         </li>
     {% endfor %}
