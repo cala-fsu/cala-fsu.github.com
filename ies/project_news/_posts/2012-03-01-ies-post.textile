@@ -1,6 +1,0 @@
----
-layout: news_entry
-category: ies 
-title: IES Post
----
-All about IES.
