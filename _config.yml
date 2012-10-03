@@ -1,2 +1,3 @@
 exclude: ['CNAME', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+permalink: 'pretty'
 paginate: 3
