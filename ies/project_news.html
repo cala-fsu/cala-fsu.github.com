@@ -10,27 +10,20 @@ id: ies
     <div id="iesProjectNews">
         <p id="iesTagLine">Improving Science Assessments</p>
         <h1>Project News</h1>
+        {% assign post = site.categories.ies[0] %}
+        <div class="article">
+            <div class="articleInfo">
+                <p>{{ post.date | date: '%B %d, %Y' }}</p>
+            </div>
+            <div class="articleContent">
+                {{ post.content }}
+            </div>
+        </div>
+
         <ul id="articles">
-            <li class="article">
-                <div class="articleInfo">
-                    <p>March 01, 2011</p>
-                </div>
-                <div class="articleContent">
-                    <h2><a href="/news/2011/03/01/ies-awards-three-year-grant-to-cala/">IES Awards Three-Year Grant to CALA</a></h2>
-                    <p>The Institute of Education Sciences (IES) has awarded CALA a three-year grant to investigate ways to improve how students
-                    are assessed in middle-school science classes. <a href="/news/2011/03/01/ies-awards-three-year-grant-to-cala/"> read more &raquo;</a></p>
-                </div>
-            </li>
-            <li class="article">
-                <div class="articleInfo">
-                    <p>July 23, 2008</p>
-                </div>
-                <div class="articleContent">
-                    <h2><a href="/news/2008/07/23/cala-presents-at-assessment-conference/">CALA Presents at Assessment Conference</a></h2>
-                    <p>CALA presented a symposium at the annual National Conference on Student Assessment. The symposium described a model developed
-                    at CALA to identify types of tasks to be associated with assessing complex skills. <a href="/news/2008/07/23/cala-presents-at-assessment-conference/"> read more &raquo;</a></p>
-                </div>
-            </li>
+        {% for post in site.categories.ies offset:1 %}
+            <li><p>{{ post.date | date: '%B %d, %Y' }} &mdash; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p></li>
+        {% endfor %}
         </ul>
     </div>
 </div>

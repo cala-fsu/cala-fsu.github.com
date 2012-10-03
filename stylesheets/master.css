@@ -795,12 +795,6 @@ _______________________________________________________ */
 	text-indent: -9999px;
 	background: transparent url(../images/text_news.png) no-repeat center left;
 }
-#singleContent #articles {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	list-style-image: none;
-}
 div.articleInfo {
 	float: left;
 	width: 180px;
@@ -814,16 +808,13 @@ div.articleContent {
 	float: right;
 	width: 580px;
 	padding: 0 10px 2em;
-	border-bottom: dashed 1px #666;
 }
-div#articlesFooter {
+#singleContent #articles {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
 	clear: both;
-	padding-top: 2em;
-	text-align: center;
-}
-
-div#articlesFooter div.pager span {
-	padding: 20px;
 }
 
 /* ftce modules
