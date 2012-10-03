@@ -485,7 +485,7 @@ _______________________________________________________ */
 }
 
 #home #rightSidebar #homeNews {
-	padding: 0 15px;
+	padding: 0 15px 10px 15px;
 }
 #home #rightSidebar #homeNews h2 {
 	display: block;
