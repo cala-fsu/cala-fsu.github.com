@@ -1,2 +1,2 @@
-exclude: ['CNAME', 'README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+exclude: ['CNAME', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 paginate: 3
