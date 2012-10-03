@@ -3,40 +3,11 @@ layout: default
 title: Center for Advancement of Learning and Assessment
 id: services
 ---
-<div id="subhead">
-    <span>Services</span>
-    <p>We love challenges. Bring us yours and we'll combine our creativity, knowledge,
-    and problem-solving skills to surpass your expectations.</p>
-</div>
-<div id="subnav">
-    <ul>
-        <li>
-            <a href= "../research">
-                <strong>Research</strong> 
-            </a>
-        </li>
-        <li>
-            <a href="../instruction">
-                <strong>Instruction and Training</strong>
-            </a>
-        </li>
-        <li id="selected">
-            <a href="">
-                <strong>Assessment and Test Development</strong>
-            </a>
-        </li>
-        <li>
-            <a href="../evaluation">
-                <strong>Program Evaluation</strong>
-            </a>
-        </li>
-        <li>
-            <a href="../development">
-                <strong>Web and Multimedia Development</strong>
-            </a>
-        </li>
-    </ul>
-</div>
+{% include services_subhead.html %}
+
+{% assign active_subnav_item='assessment' %}
+{% include services_subnav.html %}
+
 <div id="singleContent">
     <h1>Assessment and Test Development</h1>
     <p id="servicesContentTagline">Creating tests for appropriate measurement of learning</p>
