@@ -16,7 +16,7 @@ _______________________________________________________ */
 	margin: 0;
 	padding: 0;
 }
-body {	
+body {
 	/* 62.5% makes 1em ~= 10pt, 1.2em ~= 12pt, and so on */
 	font-size: 62.5%;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", Helvetica, Verdana, Arial, sans-serif;
@@ -50,14 +50,14 @@ p {
 	padding: 0;
 	line-height: 1.6em;
 }
-.dropcap { 
+.dropcap {
 	float: left;
 	font-family: "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 	font-size: 400%;
 	line-height: 1.0em;
 	margin-right: 0.2em;
 	margin-bottom: -0.25em;
-	color: #800000;	
+	color: #800000;
 }
 
 /* lists */
@@ -736,7 +736,7 @@ img#caseStudyPilotImage {
 	padding: 0 0 0 16px;
 }
 
-/* quick case studies 
+/* quick case studies
 _______________________________________________________*/
 
 #quickCaseStudyHeader {
@@ -819,6 +819,11 @@ div.articleContent {
 div#articlesFooter {
 	clear: both;
 	padding-top: 2em;
+	text-align: center;
+}
+
+div#articlesFooter div.pager span {
+	padding: 20px;
 }
 
 /* ftce modules
@@ -845,7 +850,7 @@ _______________________________________________________ */
 	padding-left: 16px;
 }
 
-/* IES 
+/* IES
 _______________________________________________________ */
 
 #ies #subnav ul {

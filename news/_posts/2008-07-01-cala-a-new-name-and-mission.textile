@@ -3,6 +3,10 @@ layout: news_entry
 category: news
 title: CALA&#58; A New Name and Mission
 ---
+h1. CALA&#58; A New Name and Mission
+
+_July 01, 2008_
+
 Tallahassee, Fla. – The Center for Advancement of Learning and Assessment (CALA) launched on July 1, 2008. Formerly a part of the Center for Information, Training, and Evaluation Services, CALA is based at Florida State University’s research and development complex.
 
 As a pioneer in the design of multimedia instructional materials and customized assessments, CALA assists policy makers and educators by providing them analyses and practical solutions.

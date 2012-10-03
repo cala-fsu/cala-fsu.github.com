@@ -3,6 +3,10 @@ layout: news_entry
 category: news
 title: Sessions Focus on Cognitive Capabilities and Assessment
 ---
+h1. Sessions Focus on Cognitive Capabilities and Assessment
+
+_October 14, 2009_
+
 Tallahassee, Fla. – Providing strategies for raising the level of academic demand on students was the focus of two training sessions presented by the Center for Advancement of Learning and Assessment (CALA).
 
 The purpose of the sessions was to demonstrate how to effectively integrate assessment with classroom instruction and learning, with the intention of tapping into more complex modes of thinking such as problem solving. Dr. Albert Oosterhof, professor emeritus at Florida State University, led the sessions. He provided an overview of the <a href="http://www.cala.fsu.edu/files/ccm.pdf">Capabilities-Complexity Model</a> and showed participants how to use the model to develop learning activities and assessments. The sessions included open discussions and hands-on application of the model to mathematics and reading/language arts.

@@ -3,11 +3,15 @@ layout: news_entry
 category: news
 title: Online Modules Provide Test Prep for FTCE
 ---
+h1. Online Modules Provide Test Prep for FTCE
+
+_April 8, 2010_
+
 Tallahassee, Fla. -- Teacher candidates can prepare for the Florida Teacher Certification Examinations (FTCE) with the first online practice tests for English Language Skills and Reading, developed by the Center for Advancement of Learning and Assessment (CALA). The <a href="http://learningforlife.fsu.edu/cpd/courseSchedule.cfm?crs_cde=CALA.101&cid=1&pid=80">FTCE General Knowledge Online Practice Test Module: English Language Skills</a> is currently available; Reading will be available May 3. The Center for Professional Development is hosting the modules.
 
 "Throughout the years, CALA has worked with thousands of prospective teachers and listened to their requests regarding FTCE test preparation," said Dr. Faranak Rohani, the director of CALA. "As a result, we designed these modules to help candidates fine-tune their knowledge and skills before they take the test. From an economical point of view, we hope to help the candidates pass the test the first time and avoid the high cost associated with FTCE retakes."
 
-Each module contains a sample test and two full-length practice tests that are aligned with the Florida Department of Education (FLDOE) competencies and skills to help users analyze their performance. Users will get experience with the number, types, and difficulty of questions they will encounter on the actual FTCE test, as well as links to other resources for use during practice test sessions and further study. 
+Each module contains a sample test and two full-length practice tests that are aligned with the Florida Department of Education (FLDOE) competencies and skills to help users analyze their performance. Users will get experience with the number, types, and difficulty of questions they will encounter on the actual FTCE test, as well as links to other resources for use during practice test sessions and further study.
 
 CALA measurement specialists have extensive experience in producing multimedia assessment instruments for high-stakes achievement, advancement, licensure, and certification. In recent years, CALA worked with the FLDOE to develop test items for the FTCE. These modules were designed and field-tested by CALA experts who are trained in the art and science of valid and reliable test development, and both practice tests have high reliability. The goal is to add Essay and Mathematics to complete the suite of tests for General Knowledge.
 

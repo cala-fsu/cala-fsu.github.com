@@ -46,6 +46,10 @@ id: home
                 </li>
             </ul>
         </div>
+        <div id="footer">
+            <p>Tel. (850) 645 CALA (2252) &#124; <a href="mailto:info@cala.fsu.edu">info@cala.fsu.edu</a></p>
+            <p><a href="http://fsu.edu/misc/policy.html">Privacy Policy</a> | Copyright &copy; 2011 <acronym title="Center for Advancement of Learning and Assessment">CALA</acronym></p>
+        </div>
     </div>
     <div id="rightSidebar">
         <div id="homeIesAd">
@@ -62,8 +66,7 @@ id: home
             {% for post in paginator.posts %}
                 <li>
                     <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-                    <p><em>{{ post.date | time_ago }}{{ post.tags | tag_links }}</em></p>
-                    <p>{{ post.description }}</p>
+                    <p><em><p>{{ post.date | date: '%B %d, %Y' }}</p></em></p>
                 </li>
             {% endfor %}
             </ul>

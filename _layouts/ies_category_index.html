@@ -1,13 +1,28 @@
 ---
 layout: default
+id: project_news
 ---
-{% for post in paginator.posts %}
+{% assign active_subnav_item = 'ies' %}
+{% include ies_subnav.html %}
 
-<div class="teaser clearfix">
-    <div class="title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-    <div class="meta"><span class="timeago">{{ post.date | time_ago }}</span>{{ post.tags | tag_links }}</div>
-    <div class="description">{{ post.description }}</div>
+<div id="singleContent">
+    <h1 id="newsHeader">News</h1>
+    <ul id="articles">
+    {% for post in paginator.posts %}
+        <li class="article">
+            <div class="articleInfo">
+                <p>{{ post.date | date: '%B %d, %Y' }}</p>
+            </div>
+            <div class="articleContent">
+                <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+                {{ post.content | strip_html | truncatewords: 60 }}
+                <!-- {{ post.content }} -->
+            </div>
+        </li>
+    {% endfor %}
+    </ul>
+    <div id="articlesFooter">
+        {{ paginator | pager_links }}
+    </div>
 </div>
-{% endfor %}
 
-{{ paginator | pager_links }}

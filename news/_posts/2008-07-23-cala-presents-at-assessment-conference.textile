@@ -3,6 +3,10 @@ layout: news_entry
 category: news
 title: CALA Presents at Assessment Conference
 ---
+h1. CALA Presents at Assessment Conference
+
+_July 23, 2008_
+
 Tallahassee, Fla. – The Center for Advancement of Learning and Assessment (CALA), based at Florida State University’s research and development complex, presented its newly developed capabilities-complexity model at the National Conference on Student Assessment in Orlando, Fla., in June 2008.
 
 Sponsored by the Council of Chief State School Officers, the conference is the largest national assembly of assessment professionals. The CALA session--"Including Types of Capabilities when Balancing a Large-Scale Assessment"--described the Capabilities-Complexity Model developed by CALA for the Florida Department of Education. The model contributes to the production of rigorous, defensible assessments.
