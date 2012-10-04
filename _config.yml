@@ -1,2 +1,2 @@
-exclude: ['CNAME', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+exclude: ['404.html', 'CNAME', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 permalink: 'pretty'
