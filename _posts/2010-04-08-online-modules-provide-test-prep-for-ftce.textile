@@ -7,7 +7,7 @@ h1. {{ page.title }}
 
 _{{ page.date | date: '%B %d, %Y' }}_
 
-Tallahassee, Fla. -- Teacher candidates can prepare for the Florida Teacher Certification Examinations (FTCE) with the first online practice tests for English Language Skills and Reading, developed by the Center for Advancement of Learning and Assessment (CALA). The <a href="http://learningforlife.fsu.edu/cpd/courseSchedule.cfm?crs_cde=CALA.101&cid=1&pid=80">FTCE General Knowledge Online Practice Test Module: English Language Skills</a> is currently available; Reading will be available May 3. The Center for Professional Development is hosting the modules.
+Tallahassee, Fla. -- Teacher candidates can prepare for the Florida Teacher Certification Examinations (FTCE) with the first online practice tests for English Language Skills and Reading, developed by the Center for Advancement of Learning and Assessment (CALA). The <a href="http://learningforlife.fsu.edu/cpd/courseSchedule.cfm?s_mstr_seq_num=10486">FTCE General Knowledge Online Practice Test Module: English Language Skills</a> is currently available; Reading will be available May 3. The Center for Professional Development is hosting the modules.
 
 "Throughout the years, CALA has worked with thousands of prospective teachers and listened to their requests regarding FTCE test preparation," said Dr. Faranak Rohani, the director of CALA. "As a result, we designed these modules to help candidates fine-tune their knowledge and skills before they take the test. From an economical point of view, we hope to help the candidates pass the test the first time and avoid the high cost associated with FTCE retakes."
 

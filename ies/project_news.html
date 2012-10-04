@@ -10,18 +10,8 @@ id: ies
     <div id="iesProjectNews">
         <p id="iesTagLine">Improving Science Assessments</p>
         <h1>Project News</h1>
-        {% assign post = site.categories.ies[0] %}
-        <div class="article">
-            <div class="articleInfo">
-                <p>{{ post.date | date: '%B %d, %Y' }}</p>
-            </div>
-            <div class="articleContent">
-                {{ post.content }}
-            </div>
-        </div>
-
         <ul id="articles">
-        {% for post in site.categories.ies offset:1 %}
+        {% for post in site.categories.ies %}
             <li>
                 <div class="article">
                     <div class="articleTime"><p>{{ post.date | date: '%B %d, %Y' }}</p></div>

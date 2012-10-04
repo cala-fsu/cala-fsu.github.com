@@ -5,18 +5,8 @@ id: news
 ---
 <div id="singleContent">
     <h1 id="newsHeader">News</h1>
-    {% assign post = site.categories.news[0] %}
-    <div class="article">
-        <div class="articleInfo">
-            <p>{{ post.date | date: '%B %d, %Y' }}</p>
-        </div>
-        <div class="articleContent">
-            {{ post.content }}
-        </div>
-    </div>
-
     <ul id="articles">
-    {% for post in site.categories.news offset:1 %}
+    {% for post in site.categories.news %}
         <li>
             <div class="article">
                 <div class="articleTime"><p>{{ post.date | date: '%B %d, %Y' }}</p></div>
