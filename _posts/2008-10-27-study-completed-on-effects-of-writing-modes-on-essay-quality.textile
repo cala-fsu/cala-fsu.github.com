@@ -3,9 +3,9 @@ layout: news_entry
 category: news
 title: Study Completed on Effects of Writing Modes on Essay Quality
 ---
-h1. Study Completed on Effects of Writing Modes on Essay Quality
+h1. {{ page.title }}
 
-_October 27, 2008_
+_{{ page.date | date: '%B %d, %Y' }}_
 
 Tallahassee, Fla. – No significant difference exists between the scores of handwritten and computer-written student essays, according to a study produced by the Center for Advancement of Learning and Assessment (CALA).
 

@@ -3,9 +3,9 @@ layout: news_entry
 categories: [news, ies]
 title: IES Awards Three-Year Grant to CALA
 ---
-h1. IES Awards Three-Year Grant to CALA
+h1. {{ page.title }}
 
-_March 1, 2011_
+_{{ page.date | date: '%B %d, %Y' }}_
 
 Tallahassee, Fla. -- The Center for Advancement of Learning and Assessment (CALA) has been awarded a $2 million grant by the U.S. Department of Education’s Institute of Education Sciences. The three-year grant will be used to investigate ways to improve how students are assessed through high-stakes tests in middle school science.
 

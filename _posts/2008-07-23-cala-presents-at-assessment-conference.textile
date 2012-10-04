@@ -3,9 +3,9 @@ layout: news_entry
 categories: [news, ies]
 title: CALA Presents at Assessment Conference
 ---
-h1. CALA Presents at Assessment Conference
+h1. {{ page.title }}
 
-_July 23, 2008_
+_{{ page.date | date: '%B %d, %Y' }}_
 
 Tallahassee, Fla. – The Center for Advancement of Learning and Assessment (CALA), based at Florida State University’s research and development complex, presented its newly developed capabilities-complexity model at the National Conference on Student Assessment in Orlando, Fla., in June 2008.
 
