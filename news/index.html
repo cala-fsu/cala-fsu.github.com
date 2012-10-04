@@ -17,7 +17,12 @@ id: news
 
     <ul id="articles">
     {% for post in site.categories.news offset:1 %}
-        <li><p>{{ post.date | date: '%B %d, %Y' }} &mdash; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p></li>
+        <li>
+            <div class="article">
+                <div class="articleTime"><p>{{ post.date | date: '%B %d, %Y' }}</p></div>
+                <div class="articleTitle"><p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p></div>
+            </div>
+        </li>
     {% endfor %}
     </ul>
 </div>

@@ -814,7 +814,16 @@ div.articleContent {
 	padding: 0;
 	list-style-type: none;
 	list-style-image: none;
-	clear: both;
+}
+#singleContent .article .articleTime {
+	float: left;
+	width: 140px;
+	/*padding: 1.4em 20px 0 0;*/
+}
+#singleContent .article .articleTitle {
+	float: right;
+	width: 620px;
+	/*padding: 0 10px 2em; */
 }
 
 /* ftce modules
