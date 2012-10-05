@@ -806,12 +806,12 @@ div.articleInfo p {
 }
 div.articleContent {
 	float: right;
-	width: 580px;
+	width: 540px;
 	padding: 0 10px 2em;
 }
 #singleContent #articles {
 	margin: 0;
-	padding: 2em 0 0 0;
+	padding: 2em 0 0 40px;
 	list-style-type: none;
 	list-style-image: none;
 }
