@@ -619,67 +619,54 @@ _______________________________________________________ */
 	text-indent: -9999px;
 	background: transparent url(../images/text_portfolio.png) no-repeat center left;
 }
-#portfolio h3 {
-	margin: .5em 0 .2em 0;
-	padding: 0;
-	font-size: 1.5em;
-	color: #4A468E;
+#portfolio .portfolioSection {
+	margin-bottom: 5em;
 }
-#portfolio .moreCaseStudies h3 {
-	margin: .5em 0 0 0;
-	padding: 0;
-	font-size: 1.2em;
-	line-height: .8em;
-	margin-left: 60px;
-	color: #800000;
-}
-#portfolio h4 {
-	height: 1px;
-	margin: 2em 0;
-	background-color: #666;
-	border: 0;
-}
-#portfolio #singleContent ul {
-	padding-top: .5em;
-	margin-left: 50px;
-}
-#portfolio #singleContent h2 {
-  font: normal 1.8em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", Helvetica, Verdana, Arial, sans-serif;
-	color: #800000;
+#portfolio .portfolioSection h2 {
 	padding-bottom: 1em;
+ 	font: normal 1.8em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", Helvetica, Verdana, Arial, sans-serif;
+	color: #800000;
 }
-#portfolio #singleContent ul li {
-	list-style-type: none;
-	background: transparent url(../images/bullet_list_red.png) no-repeat scroll 0 0.2em;
+#portfolio .portfolioSection ul {
+	margin-left: 50px;
+	padding-top: .5em;
+}
+#portfolio .portfolioSection ul li {
 	padding-left: 16px;
 	line-height: 1.6em;
+	list-style-type: none;
+	background: transparent url(../images/bullet_list_red.png) no-repeat scroll 0 0.2em;
 }
-#portfolio #singleContent .portfolioSection {
-  margin-bottom: 5em;
-}
-#portfolio #singleContent .caseStudies {
-  margin-left: 50px;
-  width: 370px;
-  float: left;
+#portfolio .caseStudies {
+	float: left;
+	margin-left: 50px;
+	width: 370px;
 }
 #portfolio .moreCaseStudies {
-  background: #FFF url('../images/icon_portfolio_casestudy.png') no-repeat;
-  margin-left: -30px;
-  margin-top: 20px;
+	margin-left: -30px;
+	margin-top: 20px;
+	background: #FFF url(../images/icon_portfolio_casestudy.png) no-repeat;
 }
-#portfolio .publications h3 {
-  color: #558000;
-  margin: 0 0 0 60px;
+#portfolio .moreCaseStudies h3 {
+	margin: .5em 0 0 60px;
 	padding: 0;
 	font-size: 1.2em;
 	line-height: .8em;
+	color: #800000;
 }
-#portfolio #singleContent .publications {
-  float: right;
-  width: 380px;
-  margin-left: 0px;
-  margin-top: 10px;
-  background: #FFF url('../images/icon_portfolio_publications.png') no-repeat;
+#portfolio .publications {
+	float: right;
+	width: 380px;
+	margin-left: 0px;
+	margin-top: 10px;
+	background: #FFF url(../images/icon_portfolio_publications.png) no-repeat;
+}
+#portfolio .publications h3 {
+ 	margin: 0 0 0 60px;
+	padding: 0;
+	font-size: 1.2em;
+	line-height: .8em;
+	color: #558000;
 }
 
 /* case studies
