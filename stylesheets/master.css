@@ -795,20 +795,6 @@ _______________________________________________________ */
 	text-indent: -9999px;
 	background: transparent url(../images/text_news.png) no-repeat center left;
 }
-div.articleInfo {
-	float: left;
-	width: 180px;
-	padding: 1.4em 20px 0 0;
-}
-div.articleInfo p {
-	font-size: 1.2em;
-	color: #2B281B;
-}
-div.articleContent {
-	float: right;
-	width: 540px;
-	padding: 0 10px 2em;
-}
 #singleContent #articles {
 	margin: 0;
 	padding: 2em 0 0 40px;
@@ -818,6 +804,7 @@ div.articleContent {
 #singleContent .article .articleTime {
 	float: left;
 	width: 140px;
+	color: #9c9c9c;
 	/*padding: 1.4em 20px 0 0;*/
 }
 #singleContent .article .articleTitle {
