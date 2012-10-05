@@ -620,7 +620,7 @@ _______________________________________________________ */
 	background: transparent url(../images/text_portfolio.png) no-repeat center left;
 }
 #portfolio .portfolioSection {
-	padding: 2em 0 4em 0;
+	padding: 3.5em 0 4em 0;
 	border-bottom: dashed 1px #666;
 }
 #portfolio .portfolioSection#research {
@@ -630,7 +630,7 @@ _______________________________________________________ */
 	border-bottom: none;
 }
 #portfolio .portfolioSection h2 {
-	padding-bottom: 1em;
+	padding: 0 0 1em 0;
  	font: normal 1.8em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", Helvetica, Verdana, Arial, sans-serif;
 	color: #800000;
 }
@@ -645,27 +645,30 @@ _______________________________________________________ */
 	background: transparent url(../images/bullet_list_red.png) no-repeat scroll 0 0.2em;
 }
 #portfolio .caseStudies {
-	float: left;
 	margin-left: 50px;
-	width: 370px;
+	width: 750px;
+}
+#portfolio .caseStudySpotlight {
+	float: left;
+	width: 380px;
 }
 #portfolio .moreCaseStudies {
-	margin-left: -30px;
+	float: right;
+	margin: 20px 0 0 20px;
 	margin-top: 20px;
+	width: 350px;
 	background: #FFF url(../images/icon_portfolio_casestudy.png) no-repeat;
 }
 #portfolio .moreCaseStudies h3 {
-	margin: .5em 0 0 60px;
+	margin: 0 0 0 60px;
 	padding: 0;
 	font-size: 1.2em;
 	line-height: .8em;
 	color: #800000;
 }
 #portfolio .publications {
-	float: right;
-	width: 380px;
-	margin-left: 0px;
-	margin-top: 10px;
+	width: 420px;
+	margin: 3em 0 0 10px;
 	background: #FFF url(../images/icon_portfolio_publications.png) no-repeat;
 }
 #portfolio .publications h3 {
@@ -930,6 +933,7 @@ _______________________________________________________ */
 .article:after,
 #quickCaseStudyWrapper:after,
 #formWrapper:after,
+.caseStudies:after,
 .portfolioSection:after {
 	content: ".";
 	display: block;
