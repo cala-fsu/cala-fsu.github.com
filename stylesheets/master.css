@@ -623,7 +623,10 @@ _______________________________________________________ */
 	padding: 2em 0 4em 0;
 	border-bottom: dashed 1px #666;
 }
-#portfolio .portfolioSection.last {
+#portfolio .portfolioSection#research {
+	padding-top: 0;
+}
+#portfolio .portfolioSection#webMultimediaDevelopment {
 	border-bottom: none;
 }
 #portfolio .portfolioSection h2 {
