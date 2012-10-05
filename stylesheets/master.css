@@ -620,7 +620,11 @@ _______________________________________________________ */
 	background: transparent url(../images/text_portfolio.png) no-repeat center left;
 }
 #portfolio .portfolioSection {
-	margin-bottom: 5em;
+	padding: 2em 0 4em 0;
+	border-bottom: dashed 1px #666;
+}
+#portfolio .portfolioSection.last {
+	border-bottom: none;
 }
 #portfolio .portfolioSection h2 {
 	padding-bottom: 1em;
