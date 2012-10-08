@@ -790,7 +790,7 @@ _______________________________________________________ */
 #singleContent .article .articleTime {
 	float: left;
 	width: 140px;
-	color: #9c9c9c;
+	color: #666;
 	/*padding: 1.4em 20px 0 0;*/
 }
 #singleContent .article .articleTitle {
