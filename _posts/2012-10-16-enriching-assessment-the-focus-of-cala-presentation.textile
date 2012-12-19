@@ -1,0 +1,20 @@
+---
+layout: news_entry
+categories: [news, ies]
+title: Enriching Assessment the Focus of CALA Presentation
+---
+h1. {{ page.title }}
+
+_{{ page.date | date: '%B %d, %Y' }}_
+
+Tallahassee, Fla. -- The Center for Advancement of Learning and Assessment (CALA) was invited to present at the Society for Research on Educational Effectiveness Fall 2012 Conference in Washington, D.C., in September. The conference was supported by the Institute of Education Sciences and the U.S. Department of Education.
+
+CALA’s presentation was part of a panel session titled “Shifting Sands: How Do Researchers Respond to Changing Standards and Assessments.” The session focused on challenges researchers face as a result of the shifts in state standards and assessments, along with potential responses. CALA’s presentation, “Enriching Assessment at the Core,” described a strategy for expanding the types of science competencies that are included in both large‐scale assessments such as those administered statewide and classroom assessments that are developed and administered by teachers.
+
+CALA researcher and FSU professor emeritus Albert Oosterhof discussed three key elements of the strategy:
+
+* A highly significant subset of science competencies will remain absent from statewide assessments as long as these assessments are administered to virtually every student at selected grade levels. Because of the very large number of students involved, these assessments are limited to competencies that can be measured by multiple-choice and other test formats that can be efficiently administered and scored. Oosterhof presented examples of the types of essential science competencies that presently go unassessed.
+
+* Important complex science competencies can be efficiently and accurately assessed through statewide assessments if carefully selected _samples_ of students are tested. Each individual student could still be assessed, but with teachers--not the external assessor--assuming this responsibility. Research at CALA shows that teachers can develop assessments of their own students that measure complex science competencies and that are reliable and comparable to those independently developed by an external agency.
+
+* Formative assessments are an essential component of effective and efficient learning and become particularly critical as the complexity of competencies being learned increases. CALA’s research is attempting to help address this need by including formative assessments as an integral part of the larger assessment picture. 
