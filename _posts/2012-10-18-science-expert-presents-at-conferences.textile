@@ -1,0 +1,14 @@
+---
+layout: news_entry
+categories: [news, ies]
+title: Science Expert Presents at Conferences
+---
+h1. {{ page.title }}
+
+_{{ page.date | date: '%B %d, %Y' }}_
+
+Tallahassee, Fla. -- Penny J. Gilmer, a science expert for the Center for Advancement of Learning and Assessment’s (CALA) science assessment project, presented research on unassessed science competencies at two conferences in early 2012. 
+
+Gilmer presented the paper “Science Competencies That Go Unassessed” at the Association for Science Teacher Education 2012 International Conference in Clearwater Beach, Florida, in January. She discussed an updated version of this paper at the 2012 National Association for Research in Science Teaching Annual International Conference in Indianapolis, Indiana, in March. The presentation was titled “Performance Assessment of Science Competencies That Normally Go Unassessed.”
+
+As part of the assessment project, CALA researchers are examining options for upgrading high-stakes, statewide assessments in middle school science. They are devising strategies for measuring critical science competencies that are not measured within conventional large-scale testing programs. The project is funded by the U.S. Department of Education’s Institute of Education Sciences.
