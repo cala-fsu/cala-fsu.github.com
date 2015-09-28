@@ -13,5 +13,5 @@ a:focus {
 _______________________________________________________ */
 
 #logo {
-	outline: none; /* outline shows up in firefox */
+	outline: none;  /* outline shows up in firefox */
 }

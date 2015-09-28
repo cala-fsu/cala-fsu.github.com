@@ -1,75 +1,18 @@
----
-layout: default
-title: Center for Advancement of Learning and Assessment (CALA) &ndash; Home
-id: home
----
-<div id="rightFauxColumn" class="clearfix">
-    <div id="leftContent">
-        <div id="homeTagline">
-            <h1>Improving learning, empowering lives</h1>
-            <p>CALA's mission is to raise and assess the level of learning in all settings. We are driven by research,
-                with a calling to apply our expertise to the needs of our community, state, and nation.</p>
-        </div>
-        <div id="homeServices">
-            <h2>Our Services</h2>
-            <ul>
-                <li id="homeServicesResearch">
-                    <a href="/services/research/">
-                        <strong>Research</strong>
-                        Collecting information to advance knowledge and support decision making
-                    </a>
-                </li>
-                <li id="homeServicesInstruction">
-                    <a href="/services/instruction/">
-                        <strong>Instruction <br />and Training</strong>
-                        Developing inservice activities to improve performance
-                    </a>
-                </li>
-                <li id="homeServicesAssessment">
-                    <a href="/services/assessment/">
-                        <strong>Assessment <br />and Test Development</strong>
-                        Creating tests for appropriate measurement of learning
-                    </a>
-                </li>
-                <li id="homeServicesEvaluation">
-                    <a href="/services/evaluation/">
-                        <strong>Program Evaluation</strong>
-                        Providing appraisals to enhance program delivery and results
-                    </a>
-                </li>
-                <li id="homeServicesDevelopment">
-                    <a href="/services/development/">
-                        <strong>Web and Multimedia Development</strong>
-                        Designing platforms for interactive user experience
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div id="footer">
-            <p>Tel. (850) 645 CALA (2252) &#124; <a href="mailto:info@cala.fsu.edu">info@cala.fsu.edu</a></p>
-            <p><a href="http://fsu.edu/misc/policy.html">Privacy Policy</a> | Copyright &copy; 2014 <acronym title="Center for Advancement of Learning and Assessment">CALA</acronym></p>
-        </div>
-    </div>
-    <div id="rightSidebar">
-        <div id="homeIesAd">
-            <h2 title="Improving Science Assessments"><a href="/ies/">Improving Science Assessments</a></h2>
-            <p class="credit">photo: Renato Ganzola</p>
-        </div>
-        <!-- <div id="homeFtceAd">
-            <h2 title="Preparing for the FTCE?"><a href="/ftce_modules/">Preparing for the FTCE?</a></h2>
-            <p><a href="/ftce_modules/">Sharpen your knowledge and skills before you take the test.</a></p>
-        </div> -->
-        <div id="homeNews">
-            <h2>News</h2>
-            <ul>
-            {% for post in site.posts limit:4 %}
-                <li>
-                    <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-                    <p><em><p>{{ post.date | date: '%B %d, %Y' }}</p></em></p>
-                </li>
-            {% endfor %}
-            </ul>
-            <a href="/news">All news &raquo;</a>
-        </div>
-    </div>
-</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en-us" />
+	<meta name="Language" content="english" />
+	<meta name="description" content="Welcome to the Center for Advancement of Learning and Assessment (CALA) Web site." />
+	<meta name="keywords" content="CALA, FSU, Florida State University" />
+	<meta http-equiv="refresh" content="0; url=ies/" />
+    <title>{{ page.title }}</title>
+
+	<!--[if gte IE 6]><!-->
+
+</head>
+<body>
+</body>
+</html>
