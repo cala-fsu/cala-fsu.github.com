@@ -1,0 +1,29 @@
+/* ie6 styles, fixes */
+
+/* portfolio
+_______________________________________________________*/
+
+#portfolio #singleContent ul li {
+	background: transparent url(../images/bullet_list_red.png) no-repeat scroll 0 0.6em;
+}
+
+/* case studies
+_______________________________________________________*/
+
+/* double float margin bug */
+#caseStudiesContent blockquote {
+	margin-right: -50px;
+}
+
+/* miscellany
+_______________________________________________________ */
+
+/* self-clearing floats */
+
+* html #masthead,
+* html #subnav,
+* html .article,
+* html #quickCaseStudyWrapper,
+* html #formWrapper {
+	height: 1%; /* for IE5+6 */
+}
